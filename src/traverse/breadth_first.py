@@ -1,19 +1,22 @@
+import queue
+
 from src.nodeTree import TreeNode
 from src.traverse.base import BaseTree
 
-class DeepFirst(BaseTree):
+class BreadthFirst(BaseTree):
     def __init__(self, root_payload):
         self.root = TreeNode(root_payload)
 
     def iterate_traversal(self):
-        def dfs(node):
-            # visited node
+        q = queue.Queue()
+        q.put(self.root)
+
+        while not q.empty():
+            node = q.get()
             yield node.payload
-            # iterate children of current node
             for child in node.children:
-                # continues through the children of current node
-                yield from dfs(child)
-        return dfs(self.root)
+                q.put(child)
+
 
 
 
