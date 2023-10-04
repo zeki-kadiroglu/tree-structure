@@ -1,8 +1,6 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
-
-
 class BaseTree(ABC):
     """
     The Abstract Factory interface declares a set of methods that return
@@ -15,4 +13,5 @@ class BaseTree(ABC):
     @abstractmethod
     def iterate_traversal(self):
         pass
+
 
