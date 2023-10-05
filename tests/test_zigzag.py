@@ -5,11 +5,13 @@ if __name__ == "__main__":
 
     # Create a generic tree based on a given structure
     def create_tree():
-        root = TreeNode(1)
+        root = TreeNode("root")
+        child1 = TreeNode(1)
         child2 = TreeNode(2)
         child3 = TreeNode(3)
         root.add_child(child2)
         root.add_child(child3)
+        root.add_child(child1)
 
         gchild1 = TreeNode(4)
 
@@ -29,8 +31,12 @@ if __name__ == "__main__":
 
         # Add one more node
         child6 = TreeNode(11)
+        child7 = TreeNode(12)
+        gchild1.add_child(child7)
         gchild1.add_child(child6)
         gchild1.add_child(child4)
+
+
 
         return root
 
