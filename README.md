@@ -25,5 +25,11 @@
 #### Breadth-First Diagram
 ![breadth-first](https://github.com/zeki-kadiroglu/tree-structure/blob/main/diagrams/breadth-first.png)
 
-- The diagram above displays each step of `deep-first search`, it respectively follows this order: `Root 3 2 1 4 5 10 6 7 8 9 11 12`
+- The diagram above displays each step of `breadth-first search`, it respectively follows this order: `Root 3 2 1 4 5 10 6 7 8 9 11 12`
+
+#### ZigZag Diagram
+![zigzag diagram](https://github.com/zeki-kadiroglu/tree-structure/blob/main/diagrams/zigzag.png)
+
+- The diagram above displays each step of `zigzag search`, it respectively follows this order: `Root 1 3 2 4 5 10 6 7 8 9 11 12`
+
 
