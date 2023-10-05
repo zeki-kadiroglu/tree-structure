@@ -3,7 +3,7 @@
 ### Folder structure
 - The project consist of two parts `src` which contains source code.
 `tests` includes execution of source code.
-- In the `src` directory, there is `traverse` folder that each module logic source code is here.  
+- In the `src` directory, there is a `traverse` folder that each module logic source code is here.  
 - Also, `traverse` has 4 `.py` files that are `base.py`, `breadth-first.py`, `deep_first.py` and `zigzag.py`
 - There is no dependency package in this project. Therefore no need any `requirements.in` or `requirements.txt`.
 
