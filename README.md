@@ -21,3 +21,9 @@
 ![deep-first](https://github.com/zeki-kadiroglu/tree-structure/blob/main/diagrams/deep-first.png)
 
 - The diagram above displays each step of `deep-first search`, it respectively follows this order: `Root 3 4 5 10 2 6 9 11 12 7 8 1`
+
+#### Breadth-First Diagram
+![breadth-first](https://github.com/zeki-kadiroglu/tree-structure/blob/main/diagrams/breadth-first.png)
+
+- The diagram above displays each step of `deep-first search`, it respectively follows this order: `Root 3 2 1 4 5 10 6 7 8 9 11 12`
+
