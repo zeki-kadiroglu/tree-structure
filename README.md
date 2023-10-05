@@ -12,6 +12,13 @@
 - According to base class structure, other traverse logics is implemented same structure. 
 - Thanks `Abstract Pattern`, isolation of concrete class provides control the classes of object that an application crates.
 
+### Test Case
+- In order to test each application module.
+- In terminal, you run these commands seperately:  
+  `python3 tests/test_breadth_first.py`
+  `python3 tests/test_deep_first.py`
+  `python3 tests/test_zigzag.py`
+
 
 ### Module Logics
 - As you see the diagrams that is below, represents the logic of `breadth-first.py`, `deep_first.py` and `zigzag.py`. Each one implements its own logic.
