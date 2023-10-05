@@ -6,7 +6,7 @@ if __name__ == "__main__":
         root = DeepFirst("Root")
         for i in range(3):
             child1 = TreeNode("Child{}".format(i + 1))
-            for j in range(4):
+            for j in range(3):
                 child2 = TreeNode("Grandchild{}_{}".format(i + 1, j + 1))
                 child1.add_child(child2)
                 for k in range(2):
