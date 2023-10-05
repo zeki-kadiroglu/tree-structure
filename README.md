@@ -8,7 +8,7 @@
 - There is no dependency package in this project. Therefore no need any `requirements.in` or `requirements.txt`.
 
 ### Design Pattern
-- the `traverse`, `base.py` is a `Abstract Base Class`. 
+- In the `traverse`, `base.py` is a `Abstract Base Class`. 
 - According to base class structure, other traverse logics is implemented same structure. 
 - Thanks to `Abstract Pattern`, isolation of concrete class provides control the classes of object that an application crates.
 
