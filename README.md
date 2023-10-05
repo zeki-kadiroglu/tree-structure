@@ -14,7 +14,7 @@
 
 ### Test Case
 - In order to test each application module.
-- In terminal, you run these commands seperately:  
+- In terminal, you should run these commands seperately:  
   `python3 tests/test_breadth_first.py`
   `python3 tests/test_deep_first.py`
   `python3 tests/test_zigzag.py`
