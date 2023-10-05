@@ -15,4 +15,4 @@
 
 ### Module Logics
 - As you see the diagrams that is below, represents the logic of `breadth-first.py`, `deep_first.py` and `zigzag.py`. Each one implements its own logic.
-![img.png](img.png)
+
