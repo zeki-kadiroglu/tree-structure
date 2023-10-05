@@ -3,7 +3,6 @@ from src.traverse.zigzag import ZigZag
 
 if __name__ == "__main__":
 
-    # Create a generic tree based on a given structure
     def create_tree():
         root = TreeNode("root")
         child1 = TreeNode(1)
