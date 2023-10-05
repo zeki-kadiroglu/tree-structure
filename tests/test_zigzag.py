@@ -5,9 +5,11 @@ if __name__ == "__main__":
 
     def create_tree():
         root = TreeNode("root")
+
         child1 = TreeNode(1)
         child2 = TreeNode(2)
         child3 = TreeNode(3)
+
         root.add_child(child2)
         root.add_child(child3)
         root.add_child(child1)
@@ -15,7 +17,6 @@ if __name__ == "__main__":
         gchild1 = TreeNode(4)
 
         child2.add_child(gchild1)
-
         child2.add_child(TreeNode(5))
 
         child3.add_child(TreeNode(6))
@@ -25,7 +26,6 @@ if __name__ == "__main__":
         # Add a level
         child4 = TreeNode(9)
         child5 = TreeNode(10)
-        #child2.addChild(child4)
         child2.add_child(child5)
 
         # Add one more node

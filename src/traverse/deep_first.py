@@ -1,8 +1,10 @@
+from typing import Any
+
 from src.nodeTree import TreeNode
 from src.traverse.base import BaseTree
 
 class DeepFirst(BaseTree):
-    def __init__(self, root_payload):
+    def __init__(self, root_payload: Any):
         self.root = TreeNode(root_payload)
 
     def iterate_traversal(self):
