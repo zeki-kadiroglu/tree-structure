@@ -10,7 +10,7 @@
 ### Design Pattern
 - the `traverse`, `base.py` is a `Abstract Base Class`. 
 - According to base class structure, other traverse logics is implemented same structure. 
-- Thanks `Abstract Pattern`, isolation of concrete class provides control the classes of object that an application crates.
+- Thanks to `Abstract Pattern`, isolation of concrete class provides control the classes of object that an application crates.
 
 ### Test Case
 - In order to test each application module.
